@@ -3,10 +3,10 @@ package ClassAndObject;
 public class Persona {
      private String nombre;
      private String apellido;    
-     private int edad;
-     private double altura;
-     private char genero;
-     private double peso;
+    int edad;
+    double altura;
+    char genero;
+       double peso;
 
 //Crear constructor con todos los atributos
 
@@ -44,7 +44,7 @@ public class Persona {
       void caminar() {
         System.out.println("Caminando...");
       }
-      void comer() {
+        void comer() {
         System.out.println("Comiendo...");
       }
       void ejercitar() {

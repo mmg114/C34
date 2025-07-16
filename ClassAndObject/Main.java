@@ -11,8 +11,11 @@ public class Main {
         persona1.setNombre("Juan");
         System.out.println("Nombre: " + persona1.getNombre());
         persona1.caminar();
-        persona1.comer();
         persona1.ejercitar();
+
+    
+
+    
       
     //Llamar constructor con todos los atributos
         

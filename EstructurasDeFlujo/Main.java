@@ -1,5 +1,7 @@
 package EstructurasDeFlujo;
 
+import java.time.LocalDate;
+
 public class Main {
     public static void main(String[] args) {
         int edad = 12;
@@ -55,7 +57,12 @@ public class Main {
         default -> "No es un dia de la semana";
     };
         System.out.println(nombreDelDiaDeLaSemana);
-    };
-    
-    
+        LocalDate fechaActual = LocalDate.now();
+        System.out.println(fechaActual);
+        
+        System.out.println(fechaActual.getDayOfWeek());
+
+        
+    }
+       
 }
