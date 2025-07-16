@@ -8,6 +8,8 @@ public class Persona {
      private char genero;
      private double peso;
 
+//Crear constructor con todos los atributos
+
       public String getNombre() {
         return nombre;
       }
