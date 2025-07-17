@@ -38,6 +38,18 @@ public class Arreglos {
         nombres.forEach(nombre -> System.out.println("El nombre es: " + nombre));
         //nombres.forEach(System.out::println);
 
+        int i = 0;
+        while (i < 10) {
+            System.out.println("El numero es: " + i);
+            i++;
+        }
+
+        do {
+            System.out.println("El numero es: " + i);
+            i++;
+        } while (i < 10);
+
+
 
     }
 }
