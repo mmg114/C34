@@ -8,12 +8,14 @@
 //Caracteres permitidos: letras, numeros
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class HolaMundo {
+    private static final Logger logger = Logger.getLogger(HolaMundo.class.getName());
     public static void main(String[] args) {
         //Imprime en consola
         System.out.println("¡Hola, mundo desde Java!");
-
+        logger.info("¡Hola, mundo desde Java!");
 
         // int edad = 20;
         // double altura = 1.75;
@@ -46,11 +48,7 @@ public class HolaMundo {
         System.out.println("Su altura es: " + altura);
 
 
-        Persona persona = new Persona();
-
-        Persona persona2 = new Persona("Juan", "Perez");
-        System.out.println("Nombre: " + persona2.getNombre());
-        System.out.println("Apellido: " + persona2.getApellido());  
+       
 
     }
 }
