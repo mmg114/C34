@@ -19,7 +19,7 @@ public class LoggerWithDate {
         System.out.println(date);
         
         LocalDateTime now = LocalDateTime.now();
-        logger.info(now.toString());
+        logger.severe("MEnsaje severe");
         String fechaHora = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
 
         logger.info("Inicio del proceso - " + fechaHora);
